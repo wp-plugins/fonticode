@@ -117,12 +117,50 @@ class Fonticodes {
 
         return $icon;
     }
+
+
+    // Sets up the settings page
+       public function add_settings_page() {
+        $page = add_theme_page(__('Fonticodes'), __('Fonticodes'), 'edit_posts', 'fonticodes', array($this, 'settings_page'));
+       }
+
+    // Content of the settings page
+       function settings_page() {
+               ?>
+               <div class="wrap">
+
+        <h2>Fonticodes <?php echo self::$gen_ver; ?> Usage</h2>
+
+        <p>This plugin <em>does not</em> install any font icon families for you, it simply allows you to use shortcodes with any you may have installed.</p>
+
+        <h3>Using the Plugin</h3>
+
+        <p>To use Font Awesome to insert a blue Twitter icon with double size:</p>
+
+               <p><code>[ficon family=FontAwesome icon=twitter color=blue size=2x]</code></p>
+
+               <p>The 'Family' should be the name of the font family, so for example Font Awesome uses `font-family: 'FontAwesome';` and thus you should use FontAwesome for the family value.</p>
+
+               <h3>Supported Font Families</h3>
+
+               <ul>
+                       <li><a href="http://fontawesome.io/">Font Awesome</a></li>
+                       <li><a href="http://genericons.com/">Genericons</a></li>
+                       <li><a href="https://melchoyce.github.io/dashicons/">Dashicons</a></li>
+                       <li><a href="http://glyphicons.com/">Glyphicons</a></li>
+                       <li><a href="http://octicons.github.com/">Octicons</a></li>
+               </ul>
+
+               </div>
+               <?php
+       }
     
     // donate link on manage plugin page
     public function donate_link($links, $file) {
         if ($file == plugin_basename(__FILE__)) {
                 $donate_link = '<a href="https://store.halfelf.org/donate/">Donate</a>';
-                $links[] = $donate_link;
+                $settings_link = '<a href="' . admin_url( 'themes.php?page=fonticodes' ) . '">' . __( 'Settings' ) . '</a>';
+                $links[] = $settings_link.' | '.$donate_link;
         }
         return $links;
     }

@@ -51,6 +51,10 @@ None.
 
 This plugin <em>DOES NOT</em> add in the font families for you. It just makes a shortcode work.
 
+= Will you add a way to enqueue the fonts? =
+
+Maybe. I'm tossing the idea around, but not all fonts have the easy-to-include-ability like Font Awesome.
+
 = Why don't Entypo or TheNounProject work? =
 
 Because they use unicode, like `&#128101;` which uses a totally different span insertion. This requires a great deal of rejiggering on the display end for my case, and I'm just not willing to code it yet. If you can, I'm happy to consider adding it.
