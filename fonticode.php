@@ -111,7 +111,7 @@ class Fonticodes {
         // Build the Icon!
         $icon_styles = $icon_color; // In case I add more later? Hope I never have to, but...
         $icon_code = '<i style="'.$icon_styles.'" class="'.$icon_family.' '.$icon_family.'-'.$icon_atts['icon'].' '.$icon_size.' '.$icon_rotate.'" name="'.$icon_atts['icon'].'"></i>';
-        $genericon = $icon_code;
+        $icon = $icon_code;
 
         // Repeat the genericon if needed
         for ($i = 2 ; $i <= $icon_atts['repeat']; ++$i) {
