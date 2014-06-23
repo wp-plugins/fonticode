@@ -4,7 +4,7 @@ Donate link: http://halfelf.org/plugins/fonticode
 Tags: font icons, shortcode, genericons, font awesome
 Requires at least: 3.9
 Tested up to: 3.9
-Stable tag: 1.0
+Stable tag: 1.1
 License: MIT
 
 A fonticode is a shortcode for WordPress for your font icons!
@@ -42,8 +42,7 @@ Just leave a comment in the support forums.
 
 No special instructions.
 
-
-== FAQ ==
+== Frequently Asked Questions ==
 
 = What fonts are included? =
 
@@ -98,4 +97,11 @@ Of course not! Though it now means if you're using, say, TwentyFourteen, you don
 
 = What's the deal with the header image? =
 
-It's a Manticore. Manticore. Fonticore? No? Okay. Sorry. I thought it was funny.
+It's a Manticore. Manticore. Fonticore. Fonticode? No? Okay. Sorry. I thought it was funny. I can't design, so I use pictures that make me smile.
+
+== Changelog ==
+= 1.1 = 
+* Fixing link to settings page and readme.
+
+= 1.0 =
+* Initial release
