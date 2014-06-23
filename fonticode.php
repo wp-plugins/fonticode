@@ -28,6 +28,8 @@ Credits:
 */
 
 class Fonticodes {
+
+	static $gen_ver = '1.0'; // Plugin version so I can be lazy
     
     public function __construct() {
         add_action( 'init', array( &$this, 'init' ) );
@@ -36,6 +38,7 @@ class Fonticodes {
     public function init() {
         add_shortcode( 'ficon', array( $this, 'shortcode' ) );
         add_action( 'wp_enqueue_scripts', array( $this, 'register_plugin_styles' ) );
+        add_action( 'admin_menu', array( $this, 'add_settings_page'));
         add_filter('plugin_row_meta', array( $this, 'donate_link'), 10, 2);
     }
 
