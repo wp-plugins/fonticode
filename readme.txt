@@ -3,7 +3,7 @@ Contributors: Ipstenu
 Donate link: http://halfelf.org/plugins/fonticode
 Tags: font icons, shortcode, genericons, font awesome
 Requires at least: 3.9
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 1.1
 License: MIT
 
