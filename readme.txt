@@ -3,7 +3,7 @@ Contributors: Ipstenu
 Donate link: http://halfelf.org/plugins/fonticode
 Tags: font icons, shortcode, genericons, font awesome
 Requires at least: 3.9
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: 1.1
 License: MIT
 
@@ -64,7 +64,7 @@ They have different CSS classes and they're not all the same as the font family 
 
 = Can I add my own font families? =
 
-Not yet. Patches welcome! I've not had the time to sit and suss out how to do that in a sane way, since not everyone calls the fonts logically in their CSS. 
+Not yet. Patches welcome! I've not had the time to sit and suss out how to do that in a sane way, since not everyone calls the fonts logically in their CSS.
 
 = Would you add in this font family? =
 
@@ -77,7 +77,7 @@ You would not believe how hard it is to find that second one for a lot of fonts!
 
 = Dashicons is included in WP, so that works out of the box, right? =
 
-No. 
+No.
 
 It has to be enqueued on the front end. Read [Adding dashicons in WordPress](http://wpsites.net/web-design/adding-dashicons-in-wordpress/) for how to do that. For what it's worth, Dashicons <em>are not</em> meant to be on the front facing part of your site, do they may get weird.
 
@@ -100,7 +100,7 @@ Of course not! Though it now means if you're using, say, TwentyFourteen, you don
 It's a Manticore. Manticore. Fonticore. Fonticode? No? Okay. Sorry. I thought it was funny. I can't design, so I use pictures that make me smile.
 
 == Changelog ==
-= 1.1 = 
+= 1.1 =
 * Fixing link to settings page and readme.
 
 = 1.0 =
